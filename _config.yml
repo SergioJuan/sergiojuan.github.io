@@ -1,8 +1,8 @@
 # Name of your site (displayed in the header)
-name: Isard Miralles
+name: Sergio J. Miralles
 
 # Short bio or description (displayed in the header)
-description: Dissenyador, il·lustrador i artista visual de Barcelona
+description: Psicólogo, educador y Ceramísta
 
 google-top: Graphic Design & Visual Art. Serveis professionals en Edició Web, Disseny gràfic e il·lustració a Barcelona
 
@@ -21,27 +21,21 @@ serveis-lead: Creatius, originals i fets a mà
 portfoli: Creacions
 portfoli-lead: Treballs destacats
 
-# Web Prices
-basica: 300
-normal: 600
-completa: 900
-tenda: 900
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: isardmt@gmail.com
-  facebook: Isard-Miralles-261219727225263
+  email: sjmiralles@gmail.com
+  facebook:
   flickr:
   github:
   behance:
-  instagram: isardmiralles
+  instagram:
   linkedin:
   pinterest:
   rss: rss
-  twitter: isardmt
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: c/IsardMiralles
+  youtube: 
   googleplus: 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -49,11 +43,11 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-1636204-1
+google_analytics: UA-157725564-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://isardmiralles.com
+url: https://sjmiralles.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
