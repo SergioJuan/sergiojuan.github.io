@@ -47,6 +47,24 @@ body {
 	vertical-align: baseline;
 }
 
+/**
+ * http://applemusic.tumblr.com/
+ */
+
+/** Ultra Light */
+@font-face {font-family: "San Francisco";font-weight: 100;src: url("https://isardmiralles.com/hipertextos/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");}
+/** Thin */
+@font-face {font-family: "San Francisco";font-weight: 200;src: url("https://isardmiralles.com/hipertextos/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");}
+/** Regular */
+@font-face {font-family: "San Francisco";font-weight: 400;src: url("https://isardmiralles.com/hipertextos/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");}
+/** Medium */
+@font-face {font-family: "San Francisco";font-weight: 500;src: url("https://isardmiralles.com/hipertextos/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");}
+/** Semi Bold */
+@font-face {font-family: "San Francisco";font-weight: 600;src: url("https://isardmiralles.com/hipertextos/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");}
+/** Bold */ 
+@font-face {font-family: "San Francisco";font-weight: 700;src: url("https://isardmiralles.com/hipertextos/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");}
+* {font-family: "San Francisco";}
+
 article, aside, blockquote, cite, details, figcaption, figure, footer, header, hgroup, main, nav, pre, section, summary { 
 	display: block;position: relative;}
 audio, canvas, progress, video { 
