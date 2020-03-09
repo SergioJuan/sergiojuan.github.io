@@ -39,9 +39,8 @@ h2.fat {font-size:3em!important;font-weight: bold!important;}
 #web-grafics {color: var(--color-red);}
 #web-oferta #fronters {max-width: 100%;}
 .animeonscroll img {padding:8px;max-width:30%;}
-#web-music {background-image: url("/img/music.jpg");image-rendering: crisp-edges;background-position: top center;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;border: none;color: var(--color-white);letter-spacing: .06em;overflow: hidden;text-align: center;}
 #web-branding {background: rgba(20,20,20,1);border: none;letter-spacing: .06em;overflow: hidden;text-align: center;}
-#blured {color:var(--color-hardgrey);overflow: hidden;text-align: center;padding:32px 21px 0 11px;border-radius:12px;z-index: 30;}
+#blured {color:var(--color-white);overflow: hidden;text-align: center;padding:32px 21px 0 11px;border-radius:12px;z-index: 30;}
 #brander h5 {font-weight:lighter ;font-size:1.5em;letter-spacing: 0.012em}
 img.note {max-width:72px;border:thin solid rgba(120,120,120,.5);}
 #web-music img.note {border:thin solid rgba(220,220,220,.75);}
@@ -98,17 +97,7 @@ hr.lifting {margin: 0px;height: 1px;}
 #glass-front {min-width:100%;background: rgba(12,12,12,.98) ;padding: 0px !important;}
 
 /* Covers */
-#glass-front a {color: var(--color-grey);text-decoration: none;margin: 0px;}
-#glass-front .cover-links {padding-top: 32px;margin-top: 0px;padding-bottom: 12px;display: block;}
-#glass-front .cover-icon {max-width: 45px;height: auto;}
-#glass-front .cover-links :hover {opacity:1!important;}
-#glass-front a h5:hover {color: var(--color-white);}
-#glass-front .cover-icon img {width: 72px;opacity:0.6; margin: 0px;}
-#glass-front article, #covers article {border: 0;}
 #page #covers article {text-shadow: 1px 1px 3px rgba(0, 0, 0, .12);}
-#glass-front h5 {line-height: .1em;font-size:30px;}
-#glass-front h4 {margin: 0px;font-size:1.6em;line-height: 1em;letter-spacing: -0.01em;}
-#glass-front img {width: 72px;padding:1px;}
 #fronters h5 {margin-bottom: 16px!important;}
 #fronters h1 {line-height:1em;}
 #fronters p {margin: 0px;min-width: 100%;}
@@ -126,7 +115,7 @@ hr.lifting {margin: 0px;height: 1px;}
 #fronters-music svg {max-width: 72px;margin: 16px 0px 18px 0px;}
 .next-top {max-width: 72px;max-height: 72px;border-radius: 50%;border: none;background: var(--color-hardgrey) !important;}
 div.masked {-webkit-mask-image: url("/hipertextos/brand/logo256.png") ;
-display: inline-block;width: 256px;height: 256px; background-image: url("/img/blog.jpg");image-rendering: crisp-edges;background-position: top center;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
+display: inline-block;width: 400px;height: 400px; background-image: url("/img/chemask.jpg");image-rendering: crisp-edges;background-position: top center;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
 
 /* Dialog */
 #dialog .icon-cog svg {max-width: 32px !important;margin-left:42px;}
