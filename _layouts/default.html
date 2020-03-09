@@ -4,7 +4,7 @@
     <meta name="encoding" charset="utf-8" />
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-	<link rel="canonical" href="https://sjmiralles.com/"/>
+	<link rel="canonical" href="https://isardmiralles.com/"/>
 
     {% include meta.html %}
 
@@ -54,7 +54,8 @@
   	</script>
   	{% endif %}
     {% include favicons.html %}
-	<style type="text/css"> #site-nav {font-family: " "} body {overflow: hidden;}
+	<style type="text/css">.preload {display: none;} #site-nav {font-family: " "} body {overflow: hidden;}
+	#preloader { position: fixed;top:0; left:0;right:0; bottom:0;background: #000;z-index: 100;}#loader {width: 100px;height: 100px;position: absolute;left:50%; top:50%;background: url(../hipertextos/images/loading.gif) no-repeat center 0;margin:-50px 0 0 -50px;}
 	</style>
 	
   	{% if page.parallax %}
@@ -112,6 +113,12 @@
     		});
 		});
   	</script>{% endif %}
+	<script>
+	$(window).load(function() {
+		$('#preloader').fadeOut('slow');
+		$('body').css({'overflow':'visible'});
+	})
+	</script>
 
     {% include analytics.html %}
       
