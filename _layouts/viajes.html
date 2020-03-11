@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca-ES">
+  <head>
+    <meta name="encoding" charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+	<link rel="canonical" href="https://sjmiralles.com/viajes"/>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hipertextos/styles/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hipertextos/styles/adding.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hipertextos/styles/adding-about.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/hipertextos/styles/anime.css" />    
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    {% include favicons.html %}
+
+  </head>
+
+  <body>
+
+	<!-- Page content -->
+	<div class="page cover-page" id="page">
+	{% include partials/navigation/nav-about.html %}
+		<header id="page-header" class="about-cover anm-moveFromTop">
+			<div>
+				<h1 class="anm-moveFromBottomFade delay-100">{{ page.title }}</h1>
+			</div>
+		</header>
+		<main id="page-main">
+			<div>
+			<div itemscope itemtype="http://schema.org/Person">
+				<section class="anm-moveFromBottomFade delay-200">
+					<h1 class="anm-scaleUpCenter delay-400">
+					<img src="https://avatars2.githubusercontent.com/u/61653163?s=400&u=190090586d841b50be9c6f1555213397879b208f&v=4" id="avatar" class="anm-scaleUp delay-400" rel="Avatar de Sergio J. Miralles">
+					<span itemprop="name">{{ site.name }}</span></h1>
+					{{ content }}
+					<br>
+						<h4 class="anm-scaleUp delay-400"><a href="mailto:{{ site.footer-links.email }}" itemprop="email">{{ site.footer-links.email }}</a></h4>
+					<br>
+				</section>
+				<hr>									
+			</div>
+			</div>
+			{% include partials/credits.html %}
+		</main>
+		{% include partials/footer.html %}
+	</div><!-- /#page -->
+	
+		<!-- Out of page
+		================================================== -->	
+    {% include partials/dialog.html %}  
+    {% include partials/rights.html %}  
+
+    <!-- Scripts
+    ================================================== -->
+  	<script src="{{ site.baseurl }}/hipertextos/js/jquery.js"></script>
+  	<script src="{{ site.baseurl }}/hipertextos/js/anime.js"></script>
+  	<script src="{{ site.baseurl }}/hipertextos/js/icons.js"></script>
+    {% include analytics.html %}
+  </body>
+</html>
