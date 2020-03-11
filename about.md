@@ -1,33 +1,20 @@
 ---
 layout: about
-title: Contacte
-permalink: /contacte/
+title: Sobre Mí
+permalink: /contacto/
 about: true
 
 ---
 
-###### <span itemprop="jobTitle">Il·lustrador | disseny Gràfic | Edició Web | Músic | tècnic de So</span>
+###### <span itemprop="jobTitle">Psicólogo, educador y Ceramísta</span>
 
-Vaig estudiar Arts Aplicades, il·lustració, dibuix de model i pintura al Pau Gargallo de Badalona.
-Música moderna a l'escola de Música de Badalona i al Taller de Músics de Barcelona.
-<br>
-Actualment compagino la feina de *creatiu gràfic* amb la de *Músic Baterísta* i *tècnic de So*.
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod mollis tellus nec efficitur. Integer at lacinia dolor. Donec in leo a libero dapibus lacinia eu id leo. Vivamus urna purus, tincidunt ut fermentum eu, condimentum sit amet lectus. Sed consectetur sapien ac tellus ullamcorper egestas. Quisque condimentum nulla luctus.
 <br>
 
-He treballat en:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod mollis tellus nec efficitur. Integer at lacinia dolor. Donec in leo a libero dapibus lacinia eu id leo.
+<br>
 
-* Disseny Gràfic
-* Cartells & flyers
-* Branding
-* HTML5 & CSS3
-* Promoció Cultural
-* Tècnic de So
-* Tècnic de llums
-* Baterísta profesional
-* Publicitat
-* Comunity Manager
-* YouTube Creators
-* Retratísta
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod mollis tellus nec efficitur. Integer at lacinia dolor. Donec in leo a libero dapibus lacinia eu id leo. Vivamus urna purus, tincidunt ut fermentum eu, condimentum sit amet lectus. Sed consectetur sapien ac tellus ullamcorper egestas. Quisque condimentum nulla luctus.
+<br>
 
-Si em necessites per a algún projecte, serà un plaer poder ajudar-te.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
