@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: viajes
 title: Che, Camina!
 permalink: /viajes/
 about: true
