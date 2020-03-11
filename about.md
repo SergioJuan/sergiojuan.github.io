@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Sobre Mí
-permalink: /contacto/
+permalink: /contacte/
 about: true
 
 ---
