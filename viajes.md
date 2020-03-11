@@ -16,12 +16,6 @@ about: true
 ---
 
 ###### Proyecto personal sobre el viaje de Ernesto Ché Guevara
-
-### h3 Title
-#### h4 Sub Title
-##### h5 Sub Title
-**Bold text
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod mollis tellus nec efficitur. Integer at lacinia dolor. Donec in leo a libero dapibus lacinia eu id leo. Vivamus urna purus, tincidunt ut fermentum eu, condimentum sit amet lectus. Sed consectetur sapien ac tellus ullamcorper egestas. Quisque condimentum nulla luctus.<br>
 <br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod mollis tellus nec efficitur. Integer at lacinia dolor. Donec in leo a libero dapibus lacinia eu id leo.<br>
