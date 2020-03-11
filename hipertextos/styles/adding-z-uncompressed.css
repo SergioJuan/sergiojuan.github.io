@@ -144,15 +144,6 @@ img.dialog-svg {width: 100%;height: 128px;}
 #llicencia img {width: 48px;}
 .cc-icon img (width:64px;)
 
-/* Coffee? */
-#coffee svg {width: 64px;text-align: center !important;}
-#coffee em img {width: 230px;margin-bottom: 32px;}
-#coffee {color: var(--color-hardgrey);height: 100%;text-align: center !important;}
-#coffee p {text-align: justify;-moz-hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;-o-hyphens: none;hyphens: none;}
-#coffee.fronter {background: linear-gradient(white, #e5e5e5);}
-#coffee.fronter em label {background: transparent;}
-#coffee.fronter em label:hover {background: #eee;}
-
 /* Footer */
 #page-footer {background: #222;color: #999;}
 #page-footer em small a {border: thin solid #222;}
