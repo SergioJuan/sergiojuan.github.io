@@ -1,9 +1,9 @@
-/* by Isard Miralles  ADDING EXTRA to About - CSS */
+/* by Isard Miralles  ADDING EXTRA to Viajes - CSS */
 /* ------------------------------------------------------------ Resets */
 
-#page-header.about-cover {background-color:var(--color-black)!important ;background-image: url("/img/texture/dark.png");background-size:180px 180px;background-repeat: repeat;image-rendering: crisp-edges;}
+#page-header.about-cover {background-color:var(--color-grey)!important ;}
 #avatar {margin:0 15px 0 0;border-radius:50%;padding:2px;opacity:.7;}
-.cover-page #page-header {border-bottom:10px solid var(--color-hardgrey);background-color: transparent;color: var(--color-hardgrey);}
+.cover-page #page-header {color: var(--color-red);border-bottom:10px solid var(--color-red);background-color: transparent;}
 .cover-page #page-main {color:var(--color-hardgrey);}
 .cover-page #page-main section {}
 .cover-page #page-main #coffee {  
