@@ -1,6 +1,7 @@
 /* by Isard Miralles  ADDING CSS */
 /* ------------------------------------------------------------ Resets */
 
+main {background-color: var(--color-white);}
 #site-nav, footer, #follows, #follows-big, #icons, #covers, .nav-scroll,
 #web-credits, #page-header, #post-header, #post-share, #date {text-align: center;}
 header {z-index: 1 !Important;}
@@ -34,14 +35,14 @@ h2.fat {font-size:3em!important;font-weight: bold!important;}
 #web-grafics p {margin-bottom:12px;padding:3px;}
 #web-oferta h2, #web-branding h2, #web-grafics h2, #web-music h2 {font-weight: lighter ;letter-spacing: -0.045em;margin-bottom:23px;line-height:1em;font-size:1.4em;}
 #web-oferta h2, #blured h1 {color:var(--color-black);}
-#web-branding h1 {color:var(--color-white);}
+#web-branding {color:var(--color-white)!important;}
 #web-oferta, #web-branding, #web-grafics, #web-music {letter-spacing: .0012em;text-align: center;color: var(--color-grey);}
 #web-grafics {color: var(--color-red);}
 #web-oferta #fronters {max-width: 100%;}
 .animeonscroll img {padding:8px;max-width:30%;}
 #web-music {background-image: url("/img/music.jpg");image-rendering: crisp-edges;background-position: top center;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;border: none;color: var(--color-white);letter-spacing: .06em;overflow: hidden;text-align: center;}
 #web-branding {background: rgba(20,20,20,1);border: none;letter-spacing: .06em;overflow: hidden;text-align: center;}
-#blured {color:var(--color-hardgrey);overflow: hidden;text-align: center;padding:32px 21px 0 11px;border-radius:12px;z-index: 30;}
+#blured {color:var(--color-white);overflow: hidden;text-align: center;padding:32px 21px 0 11px;border-radius:12px;z-index: 30;}
 #brander h5 {font-weight:lighter ;font-size:1.5em;letter-spacing: 0.012em}
 img.note {max-width:72px;border:thin solid rgba(120,120,120,.5);}
 #web-music img.note {border:thin solid rgba(220,220,220,.75);}
@@ -53,8 +54,8 @@ img.note {max-width:72px;border:thin solid rgba(120,120,120,.5);}
 .text-center {text-align: center;}
 .text-left {text-align: left;}
 .text-right {text-align: right;}
-#web-branding h3 i, #web-oferta h3 i {font-size:.62em;font-weight:normal;color:var(--color-softgrey);font-style:normal;}
-#web-branding h3 i a, #web-oferta h3 i a { color:var(--color-softgrey);font-size:1.1em;font-style: normal;letter-spacing: -0.045em;padding-left:12px;text-decoration:none;}
+#web-branding h3 i, #web-oferta h3 i {font-size:.62em;font-weight:normal;color:var(--color-white);font-style:normal;}
+#web-branding h3 i a, #web-oferta h3 i a { color:var(--color-white);font-size:1.1em;font-style: normal;letter-spacing: -0.045em;padding-left:12px;text-decoration:none;}
 #web-branding h3 a:hover, #web-oferta h3 a:hover { text-decoration:underline;}
 #web-branding h3, #web-oferta h3 {line-height:.96em;margin-bottom: 0px!important;font-weight: normal;font-size:1.8em;}
 #web-grafics em a {border-radius:8px;padding:12px 27px 12px 27px;background-color:var(--color-red)!important;color:var(--color-white);border:thin solid var(--color-red);margin:1.2em 0 1.6em 0;}
@@ -100,17 +101,7 @@ hr.lifting {margin: 0px;height: 1px;}
 #glass-front {min-width:100%;background: rgba(12,12,12,.98) ;padding: 0px !important;}
 
 /* Covers */
-#glass-front a {color: var(--color-grey);text-decoration: none;margin: 0px;}
-#glass-front .cover-links {padding-top: 32px;margin-top: 0px;padding-bottom: 12px;display: block;}
-#glass-front .cover-icon {max-width: 45px;height: auto;}
-#glass-front .cover-links :hover {opacity:1!important;}
-#glass-front a h5:hover {color: var(--color-white);}
-#glass-front .cover-icon img {width: 72px;opacity:0.6; margin: 0px;}
-#glass-front article, #covers article {border: 0;}
 #page #covers article {text-shadow: 1px 1px 3px rgba(0, 0, 0, .12);}
-#glass-front h5 {line-height: .1em;font-size:30px;}
-#glass-front h4 {margin: 0px;font-size:1.6em;line-height: 1em;letter-spacing: -0.01em;}
-#glass-front img {width: 72px;padding:1px;}
 #fronters h5 {margin-bottom: 16px!important;}
 #fronters h1 {line-height:1em;}
 #fronters p {margin: 0px;min-width: 100%;}
@@ -128,7 +119,7 @@ hr.lifting {margin: 0px;height: 1px;}
 #fronters-music svg {max-width: 72px;margin: 16px 0px 18px 0px;}
 .next-top {max-width: 72px;max-height: 72px;border-radius: 50%;border: none;background: var(--color-hardgrey) !important;}
 div.masked {-webkit-mask-image: url("/hipertextos/brand/logo256.png") ;
-display: inline-block;width: 256px;height: 256px; background-image: url("/img/blog.jpg");image-rendering: crisp-edges;background-position: top center;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
+display: inline-block;width: 400px;height: 400px; background-image: url("/img/blog.jpg");image-rendering: crisp-edges;background-position: top center;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;}
 
 /* Dialog */
 #dialog .icon-cog svg {max-width: 32px !important;margin-left:42px;}
@@ -156,15 +147,6 @@ img.dialog-svg {width: 100%;height: 128px;}
 #llicencia {text-align: center;color: var(--color-hardgrey);}
 #llicencia img {width: 48px;}
 .cc-icon img (width:64px;)
-
-/* Coffee? */
-#coffee svg {width: 64px;text-align: center !important;}
-#coffee em img {width: 230px;margin-bottom: 32px;}
-#coffee {color: var(--color-hardgrey);height: 100%;text-align: center !important;}
-#coffee p {text-align: justify;-moz-hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;-o-hyphens: none;hyphens: none;}
-#coffee.fronter {background: linear-gradient(white, #e5e5e5);}
-#coffee.fronter em label {background: transparent;}
-#coffee.fronter em label:hover {background: #eee;}
 
 /* Footer */
 #page-footer {background: #222;color: #999;}
@@ -198,18 +180,14 @@ a.web-img :hover {background:var(--color-hardgrey);color:var(--color-softgrey);}
 em small #go-up {background: transparent ;border:thin solid rgba(100,100,100,.2)!important;padding: 12px;border-radius: 50%;margin-bottom:-15px;}
 em small #go-up:hover {background: rgba(0, 0, 0, .3);}
 
-/* Directories - Qweb */
-#directories {text-align:center!important;background-color: var(--color-softgrey);height:86px; }
-#directories div {margin-left:40.6%;}
 
 /* Footer fixed */
-main {margin-bottom: 270px;z-index: 1;overflow:hidden;background-color: var(--color-white);box-shadow: 0 75px 60px rgba(0, 0, 0, .32);}
-#page-footer {position: fixed;box-shadow: inset 0 0 32px rgba(0, 0, 0, .32);bottom: 0px;z-index: 0;width: 100%;max-height: 362px !important;}
+#page-footer {}
 #page-footer #follows a {font-weight:400;color:var(--color-hardgrey);
     text-decoration:none!important;font-size:1.1em!important;line-height:.1em;}
 #page-footer #follows a b {font-weight:200;letter-spacing: -.05em;}
 #page-footer #g-text {font-size:.75em;color:var(--color-hardgrey); }
-#autoria {font-size: 16px;border-top:thin solid #333;padding-top:9px;}
+#autoria {font-size: 13px;border-top:thin solid #333;padding-top:9px;}
 #autoria b {font-weight: normal;padding-right:15px;}
 #autoria a {color:var(--color-hard-grey);}
 #page-footer #autoria a {font-weight: bold;letter-spacing: -0.02em}
